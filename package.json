@@ -1,0 +1,21 @@
+{
+  "name": "UBSNodeJsDemo",
+  "version": "0.0.0",
+  "private": true,
+
+  "dependencies": {
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+
+    "chai": "^3.4.1",
+    "mocha": "^2.3.3",
+    "superagent": "^1.4.0",
+
+    "Istanbul": "^0.3.19"
+  },
+
+  "scripts": {
+    "test": "istanbul test _mocha -- -R spec",
+    "coverage": "istanbul cover _mocha -- -R spec"
+  }
+}
