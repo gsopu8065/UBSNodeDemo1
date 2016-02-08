@@ -1,5 +1,5 @@
 test:
   override:
-    - npm coverage
+    - npm run coverage
   post:
     - cp -r ./coverage/ $CIRCLE_ARTIFACTS/coverage
