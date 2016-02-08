@@ -2,4 +2,4 @@ test:
   override:
     - npm run coverage
   post:
-    - cp -r ./coverage/lcov-report/index.html $CIRCLE_ARTIFACTS
+    - cp -r ./coverage/lcov-report/index.html $CIRCLE_ARTIFACTS/index.html
