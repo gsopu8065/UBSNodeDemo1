@@ -3,3 +3,4 @@ test:
     - npm run coverage
   post:
     - cp -r ./coverage/ $CIRCLE_ARTIFACTS/coverage
+    - cp -r ./coverage/ $CIRCLE_TEST_REPORTS/coverage
