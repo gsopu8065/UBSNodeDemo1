@@ -11,7 +11,7 @@
     "mocha": "^2.3.3",
     "superagent": "^1.4.0",
 
-    "Istanbul": "^0.3.19"
+    "istanbul": "^0.3.19"
   },
 
   "scripts": {
